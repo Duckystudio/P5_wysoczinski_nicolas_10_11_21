@@ -55,7 +55,7 @@ else {
             const div5 = document.createElement("div");
             div5.className = "cart__item__content__settings__quantity";
             const p3 = document.createElement("p");
-            p3.innerText = "Qté : ";
+            p3.innerText = "Quantité : ";
             div5.appendChild(p3);
             var input = document.createElement("input");
             input.setAttribute("type", "number");
